@@ -1,0 +1,308 @@
+article{
+    display: inline-block;
+}
+#fix{
+margin-top: -200px;
+text-align: center;
+}
+.container {
+    width: 50%;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: 10em 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 300px;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border : solid red;
+  }
+
+  .overlay {
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0F1218;
+    height: 400px;
+    width: 600px;
+    border : solid red;
+
+  }
+#re{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+  .container:hover .overlay {
+    opacity: 1;
+    position: relative;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('font/myriad/MYRIADPRO-REGULAR.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Bold'), url('font/myriad/MYRIADPRO-BOLD.woff') format('woff');
+    }
+
+header  {
+    margin-left:auto;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+    position: sticky;
+    display: block;
+    background-color: transparent;
+    opacity: 0,5;
+    z-index: 9000;
+}
+.nav_head {
+font-size: 20px;
+text-align: right;
+font-family:'Myriad Pro Bold';
+color: #0F1218;
+}
+a {color:#0F1218;
+   text-decoration:none;
+}
+#carre{
+  height: 100px;
+  width: 200px;
+  background-color:#D02420;
+  margin-left: 600px;
+}
+
+ li{
+display:inline-block;
+margin: 0 10px;
+}
+
+#logo{
+    height: 100px;
+    margin-right: auto;
+    text-align: left;
+}
+
+#logo2 {
+    display: block;
+    max-width: 10%;
+    margin-right: auto;
+}
+#logo1 {
+display: block;
+position: relative;
+margin: auto;
+}
+
+section {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+}
+.background-image-full{
+  background-size: cover;
+    margin: 0 8px;
+    height: 400px;
+    width: 600px;
+
+
+}
+
+
+ footer {
+    clear: both;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+
+ }
+ #buttonaddarticle{
+     position: relative;
+ }
+
+ #first {
+
+    text-align: center;
+  margin-top: -130px;
+    margin-right: auto;
+    margin-left: auto;;
+    width: 395px;
+    z-index: 1;
+ }
+ body {background-color: #FFF;
+	overflow: hidden;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+  background-color:#D02420;
+	z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(images/shit.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+.pres{
+    width: 31%;
+    z-index: 1;
+    display: block;
+    margin-top: -16%;
+    margin-left: 60%;
+}
+.pres7{
+    width: 21%;
+    z-index: 1;
+    display: block;
+    margin-top: -16%;
+    margin-left: 60%;
+}
+.pres6{
+  width: 14%;
+    z-index: 1;
+    display: block;
+    margin-top: -6%;
+    margin-left: 20%;
+}
+#reu{
+  font-size: 60px;
+}
+.pres3{
+    width: 20%;
+    margin-top: -18%;
+    margin-left: 17%;
+        z-index: 1;
+    display: block;
+}
+
+#logo3{
+height: auto;
+width: 34%;
+margin-top: -8%;
+margin-left: 51%; }
+#non{
+position: absolute;
+display: block;
+}
+.imagepre{
+    display: block;
+height: 40%;
+width: 30%;
+max-width: 100%;
+background-size: cover;
+background-position: 50%;
+margin-top: -21%;
+margin-left: 15%;
+}
+#puing{
+  max-width: 100%;
+  display: block;
+  margin-top: -1px;
+  margin-left: 888px;
+}
+.pres5 h1{
+font-size: 40px;}
+.pres5 p{
+font-size: 20px;}
+.pres5 {
+  margin-top: -100px;
+  text-align: center;
+}
+.mymenu{
+background-color: black;
+}
+#navbar2{
+width: 20px;
+height: 20px;
+}
+
+@media  (max-width:900px) {
+  .pres7{
+  }
+    #reu{
+    text-align: center;
+  margin-left: -20px;
+  margin-top: -150px;
+    max-width: 100%;}
+    .imagepre{
+        display: block;
+    height: 300px;
+    width: 600px;
+    max-width: 100%;
+    background-position: 50%;
+    margin-top: -400px;
+    margin-left: 0px;
+    }
+.pres{
+
+    max-width: 100%;
+    width: 395px;
+    z-index: 1;
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+
+}
+.pres6{
+
+}
+
+.pres3{
+    max-width: 1000%;
+    width: 300px;
+    z-index: 1;
+    display: block;
+    margin-top: -300px;
+    margin-left: 35px;
+    text-align: center;
+}
+.navbar {
+ z-index: 0;
+
+}
+#logo2{
+max-width: 24%;}
+#re{
+max-width:80%;
+margin-left: -150px;
+margin-top: 100px;
+
+}
+}    /* Tabled Portrait */

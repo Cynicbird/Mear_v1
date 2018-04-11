@@ -1,0 +1,73 @@
+
+footer {
+    clear: both;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+
+ }
+ header  {
+    margin:auto;
+    height: 200px;
+    width: auto;
+    top:0px;
+    border : solid red 1px;
+    position: sticky;
+    background-color: white;
+}
+header nav {
+text-align: center;
+font-size: 30px;
+font-family:'Myriad Pro Bold'';
+
+}
+header nav li{
+    color: red;
+display:inline-block;
+margin: 0 22px;
+}
+
+#logo{
+    height: 100px;
+    border : solid red 1px;
+    margin: auto;
+    text-align: center;
+}
+img #logo1 {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+body {
+    margin : 0 auto;
+    padding: 0 auto;
+    width: auto;
+    height: 1080px;
+}
+section {
+    border : solid red 1px;
+    width: 1080px;
+    height: auto;
+    margin : auto;
+    text-align: center;
+}
+article {
+  display: block;
+height: 20%;
+}
+.img-descri {
+height: 400px;
+width: 600px;
+margin: auto;
+background-size: cover;
+
+ }
+ @media  (max-width:900px) {
+  article{
+    display: block;
+    width: 30%
+  }
+ }
